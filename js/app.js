@@ -13,15 +13,15 @@
     }
     return await response.json();
   }
-  // console.log(getQuotes(Math.floor(Math.random() * 15) + 1,5))
+  console.log(getQuotes(Math.floor(Math.random() * 15) + 1,5))
   // show the quotes
   const showQuotes = (quotes) => {
-    quotes.forEach((quote,index) => {
+    quotes.forEach(quote => {
       const quoteEl = document.createElement('blockquote');
       quoteEl.classList.add('quote');
 
       quoteEl.innerHTML = `
-          <span>${index})</span>
+          <span>${quote.id})</span>
           ${quote.quote}
           <footer>${quote.author}</footer>
       `;
