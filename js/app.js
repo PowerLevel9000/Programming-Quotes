@@ -1,7 +1,10 @@
 (function () {
-
   const quotesEl = document.querySelector('.quotes');
   const loaderEl = document.querySelector('.loader');
+  // control variables
+  let currentPage = 1;
+  const limit = 10;
+  let total = 0;
 
   // get the quotes from API
   const getQuotes = async (page, limit) => {
@@ -11,12 +14,12 @@
     if (!response.ok) {
       throw new Error(`An error occurred: ${response.status}`);
     }
-    return await response.json();
-  }
-  console.log(getQuotes(Math.floor(Math.random() * 15) + 1,5))
+    return await response.json(); // eslint-disable-line
+  };
+
   // show the quotes
   const showQuotes = (quotes) => {
-    quotes.forEach(quote => {
+    quotes.forEach((quote) => {
       const quoteEl = document.createElement('blockquote');
       quoteEl.classList.add('quote');
 
@@ -45,7 +48,6 @@
 
   // load quotes
   const loadQuotes = async (page, limit) => {
-
     // show the loader
     showLoader();
 
@@ -67,32 +69,24 @@
         hideLoader();
       }
     }, 500);
-
   };
-
-  // control variables
-  let currentPage = 1;
-  const limit = 10;
-  let total = 0;
-
 
   window.addEventListener('scroll', () => {
     const {
       scrollTop,
       scrollHeight,
-      clientHeight
+      clientHeight,
     } = document.documentElement;
 
-    if (scrollTop + clientHeight >= scrollHeight - 5 &&
-      hasMoreQuotes(currentPage, limit, total)) {
-      currentPage++;
+    if (scrollTop + clientHeight >= scrollHeight - 5
+      && hasMoreQuotes(currentPage, limit, total)) {
+      currentPage += 1;
       loadQuotes(currentPage, limit);
     }
   }, {
-    passive: true
+    passive: true,
   });
 
   // initialize
   loadQuotes(currentPage, limit);
-
-})();
+}());
