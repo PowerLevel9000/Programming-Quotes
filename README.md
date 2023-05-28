@@ -1,17 +1,37 @@
 <a name="readme-top"></a>
-<!-- the change -->
-<div align="center">
-  <img src="./adarsh-logo.png" alt="logo" width="140"  height="auto" />
-  <br/><br>
-  <h1><b>Programming Quotes</b></h1>
 
-  <br><br>
-  
- </div>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-<!-- make it more responsive -->
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
 <div align="center">
-  <img src="./all-devices-white.png" alt="logo" width="100%"  height="auto" />
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -19,7 +39,6 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🧪 Linters And Deployment](#linters)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -36,55 +55,53 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Programming Quotes <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-This Project is Random Quote machine with pagination on scroll
+> Describe your project in 1 or 2 sentences.
 
-**Programming Quotes** is a api based application for showing programming quotes 
-
-## 🧪 Linters And Deployment <a name="linters"></a>
-[![Linters](https://github.com/PowerLevel9000/Programming-Quotes/actions/workflows/linter.yml/badge.svg)](https://github.com/PowerLevel9000/Programming-Quotes/actions/workflows/linter.yml)
-[![pages-build-deployment](https://github.com/PowerLevel9000/Programming-Quotes/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/PowerLevel9000/Programming-Quotes/actions/workflows/pages/pages-build-deployment)
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-In this project I used my skills, tech and libraries
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Documentation</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com">HTML</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Styling</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://www.w3.org">SASS</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Dynamics And Logics</summary>
+<summary>Database</summary>
   <ul>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-Following features you should observe
+> Describe between 1-3 key features of the application.
 
-<!-- - **** -->
-- **Programming Quote on page**
-- **Quotes will paginate on scroll**
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,8 +109,9 @@ Following features you should observe
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-This link will guide you to my project <a href ="https://powerlevel9000.github.io/Programming-Quotes/"> live link （￣︶￣）↗　</a>
+> Add a link to your deployed project.
 
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,61 +119,83 @@ This link will guide you to my project <a href ="https://powerlevel9000.github.i
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-For having local file and project you can fork this repo or clone it using `git clone https://github.com/PowerLevel9000/Programming-Quotes.git`
-And for making changes you you should follow prerequisites
+> Describe how a new developer could make use of your project.
 
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to edit this project you need:
+In order to run this project you need:
 
- - Any text editor such as note pad and word pad
- - A web browser
- - Node js installed
- - An IDE
+<!--
+Example command:
 
-#### Suggested IDE
- - Visual studio code `I prefer this one 🙃🙃`
- - Atom 
- - Sublime 
- - IntelliJ IDEA
- - Visual code 
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- Open the live server of vs-code or open [index](./index.html) file in browser
+<!--
+Example commands:
 
-- Before deployment have some linter check 
-  - [ ] `npx stylelint "**/*.{css,scss}"` for css and saas file
-  - [ ] `npx eslint .` for js files
-  - [ ] `npx hint .` for html files 
-
-- After fixing error build deploy for production
-
-### Install 
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
-npm i 
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
 ```
+--->
+
 ### Usage
 
-- For displaying Programming quotes  
-- Pagination of quotes on scroll
+To run the project, execute the following command:
 
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
 
 ### Run tests
 
-- Currently, this Project don't have any Unit test
-- You can do manual checking
-  - Score added properly
-  - Form validation for score and scorer work properly 
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
 You can deploy this project using:
 
-- For this repo and use git hub pages to deploy it 
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,23 +203,31 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
-👤 **Adarsh Pathak**
+👤 **Author1**
 
-- GitHub: [@PowerLevel9000](https://github.com/githubhandle)
-- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002?t=AIuSN7mTxk5a_MWpLolEjA&s=09)
-- LinkedIn: [@Adarsh Pathak](https://www.linkedin.com/in/adarsh-pathak-56a831256/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author2**
 
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Improved Navigation Bar**
-- [ ] **Improve functionality**
-- [ ] **Improve styling**
+> Describe 1 - 3 features you will add to the project.
 
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +237,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,9 +245,9 @@ Feel free to check the [issues page](../../issues).
 
 ## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-
-If you like my Project give it a Star ✨🌟 Or buy Me a Coffee 🥂
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,16 +255,34 @@ If you like my Project give it a Star ✨🌟 Or buy Me a Coffee 🥂
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to Acknowledge [FCC](https://www.freecodecamp.org/) it is great resource to learn web development 
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
